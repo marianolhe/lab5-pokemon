@@ -1,3 +1,4 @@
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -56,4 +57,14 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+    //retrofit
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    //coroutines (para llamadas asíncronas)
+    implementation(libs.kotlinx.coroutines.android)
+    //coil (para cargar imágenes por URL)
+    implementation(libs.coil.compose)
+    //navigation
+    implementation(libs.androidx.navigation.compose)
 }
