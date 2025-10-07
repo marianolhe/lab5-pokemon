@@ -1,4 +1,4 @@
-package com.example.lab5_pokemon
+package com.example.lab5_pokemon.ui.detail
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -11,7 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
-import com.example.lab5_pokemon.network.Pokemon
+import com.example.lab5_pokemon.domain.model.Pokemon
 import java.util.Locale
 
 @Composable
